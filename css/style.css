@@ -11,11 +11,6 @@ header{
     padding: 20px 0;
     background: url("../imagens/logoh.png");
 }
-#menu{
-    top: 0;
-    height:0;
-    position: fixed;
-}
 .caixa{
     position: relative;
     width: 1280px;
@@ -550,6 +545,9 @@ td{
     nav a{
         font-size: 1.15em;
     }
+    .bemvindo{
+        font-size: 1.5em;
+    }
     .peixepersonal, .textokinesis{
         width: 100%;
         display: flex;
@@ -577,6 +575,11 @@ td{
     }
     .enviar{
         font-size: 16px;
+    }
+}
+@media screen and (max-width: 420px){
+    nav a{
+        font-size: 1em;
     }
 }
 @media screen and (max-width: 380px) {
