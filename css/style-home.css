@@ -1,0 +1,207 @@
+*{
+    max-width: 100%;
+    
+}
+header{
+    background: linear-gradient(#BBBBBB, #ffffff) ;
+    padding: 20px 0;
+    background: url("../imagens/logoh.png");
+
+}
+h1{
+    display: inline;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+.caixa{
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    position: absolute;
+    top: 45%;
+    right: 0;
+
+}
+nav li{
+    display: inline-flex;
+    margin: 0 0 0 15px;
+}
+nav a:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    background: rgb(136, 240, 158);
+    
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.peixepersonal{
+    max-width: 100%;
+    display: inline-flex;
+    margin: 0 auto;
+    box-shadow:  5px 5px 20px #888888;
+    border: 1px solid black;
+    border-radius: 15px;
+    
+}
+.kinesisfuncional{
+    
+    max-width: 100%;
+    display: inline-flex;
+    margin: 0 auto;
+    box-shadow:  5px 5px 20px #888888;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#folder1{
+    width: 35%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#folder2{
+    width: 60%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h2{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 17px;
+    background: linear-gradient(rgb(180, 252, 159), rgb(255, 255, 255)); 
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+    border-radius: 0 0 15px 15px;
+    color: #565656;
+    font-family: 'Roboto', sans-serif;
+}
+
+.apresentacao{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    top: 50%;
+    text-transform: uppercase;
+    padding: 3%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+.texto{
+    height: 70px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+em strong{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.textokinesis{
+    padding: 0 1%;
+    width: 40%;
+    display: inline-flex;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    vertical-align: top;
+    
+}
+.itens{
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5%;
+}
+.beneficios {
+    background: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5% 0;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+.beneficios ul{
+    padding: 5% 0;
+}
+.beneficios li{
+    padding: 5px;
+    margin-left: 5%;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+}
+.fim {
+    
+    width: 12%;
+    box-shadow:  5px 5px 20px #000000;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.fim:hover{
+    transition: transform .9s;
+    transform: scale(2.0);
+    
+}
+footer{
+        text-align: center;
+    background: url("../imagens/logof.png");
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFF;
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
+@media (max-width: 800px){
+    .pps{
+        display: none;
+    }
+    .caixa{
+        display: none;
+        text-align: center;
+        font-size: 100%;
+        vertical-align: top;
+        width: 100%;
+    }
+    .peixepersonal, .textokinesis{
+        width: 100%;
+        margin: 1%;
+    }
+    .inicio{
+        display: none;
+    }
+    #personal{
+        margin-top: 25%;
+    }
+    .produtos li{
+        margin-top: 0%;
+        width: 100%;
+    }
+}

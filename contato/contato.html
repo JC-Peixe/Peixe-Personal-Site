@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+        <title> Contatos - Peixe Personal</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img class="pps" src="../imagens/peixepersonal.png" alt="Logo Peixe Personal"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html" target="_self" rel="prev">Home</a></li>
+                        <li><a href="../produtos/produtos.html" target="_self" rel="next">Serviços</a></li>
+                        <li><a href="contato.html" target="_self" rel="next">Contato</a></li>
+                        <li><a href="http://www.saudeemmovimento.com.br/saude/avaliation_fisica_i.htm" target="_blank" rel="nofollow">Avaliação Física</a></li>                
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="formulario">
+            <form action="">
+
+                <label for="normesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomeesobrenome" class="input-padrao" required placeholder="Digite seu nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="70" rows="10" class="input-padrao" required placeholder="Escreva sua dúvida e quais informações deseja receber..."></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+                    <label for="radio-wharsapp"><input type="radio" name="contato" value="whatsapp" id="radio-wharsapp" checked>Whatsapp</label>
+                   
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select name="" id="">
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+            </section>
+            <section class="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="1">Tabela de Horários </th>
+                        <th> Kinesis Funcional</th>
+                    </tr>
+                    <tr>
+                        <th class="diaTurno">Dias</th>
+                        <th class="diaTurno">Horários</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Segunda-feira</td>
+                        <td>17:30 - 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Terça-feira</td>
+                        <td>17:30 - 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Quinta-feira</td>
+                        <td>17:30 - 20:30</td>
+                    </tr>
+                    <tr>
+                        <td>Sexta-feira</td>
+                        <td>18:50 - 20:00</td>
+                    </tr>
+                </tbody>
+            </table>
+            </section>
+        </main>
+
+        <footer>
+            <img src="../imagens/personalBranco.png" alt="Logo Peixe Personal">
+            <p class="copyright">&copy;Copyright Peixe Personal LTDA - 2022</p>
+        </footer>
+    </body>
+</html>
