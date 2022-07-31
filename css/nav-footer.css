@@ -1,0 +1,77 @@
+
+header{
+    padding: 20px 0;
+    background: url("../imagens/logoh.png");
+}
+.caixa{
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: inline-flex;
+    position: absolute;
+    top: 45%;
+    right: 0;
+
+}
+nav li{
+    display: inline-flex;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    transform: scale(1.1);
+    transition: .2s;
+    background-color: rgb(240,255,248);
+}
+.titulo-principal{
+    padding-left: 20px;
+}
+
+footer{
+    text-align: center;
+    background: url("../imagens/logof.png");
+    padding: 40px 0;
+}
+.copyright{
+    color: #FFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 800px){
+    
+    .caixa{
+        text-align: center;
+        width: auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    nav a{
+        font-size: 1.15em;
+    }
+
+}
+@media screen and (max-width: 420px){
+    nav a{
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+        <title> Contatos - Peixe Personal</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/imc.css">
+        <link rel="stylesheet" href="../css/nav-footer.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img class="pps" src="../imagens/peixepersonal.png" alt="Logo Peixe Personal"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html" target="_self" rel="prev">Home</a></li>
+                        <li><a href="../produtos/produtos.html" target="_self" rel="next">Serviços</a></li>
+                        <li><a href="contato.html" target="_self" rel="next">Contato</a></li>
+                        <li><a href="http://www.saudeemmovimento.com.br/saude/avaliation_fisica_i.htm" target="_blank" rel="nofollow">Avaliação Física</a></li>                
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="formulario">
+     
+            <form action="" id="calculo-imc">
+
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input name="nome" type="text" id="nome" class="input-padrao" required placeholder="Digite seu nome">
+
+                <label for="idade">Idade</label>
+                <input name="idade" type="text" id="idade" class="input-padrao" required placeholder="Digite sua idade">
+
+                <label for="peso">Peso</label>
+                <input 
+                name="peso" type="text" id="peso" class="input-padrao" required placeholder="digite seu peso em kg">
+
+                <label for="altura">Altura</label>
+                <input name="altura" type="text" id="altura" class="input-padrao" required placeholder="digite sua altura em metros ex: 1.90">
+     
+                <input type="submit" value="Enviar Formulário" class="enviar">
+            </form>
+
+            <div class="resultado">
+                <span class="imc">Calcule seu IMC</span>
+                <span class="classificacao">Resultado aqui!</span>
+                <span class="risco">Índice, Classificação e Riscos!</span>
+            </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <img src="../imagens/personalBranco.png" alt="Logo Peixe Personal">
+            <p class="copyright">&copy;Copyright Peixe Personal LTDA - 2022</p>
+        </footer>
+		<script src="../javascript/imc.js"></script>
+
+    </body>
+</html>

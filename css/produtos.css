@@ -1,0 +1,135 @@
+.produtos{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos h2{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding-top: 17px;
+    margin: 0 auto;
+    background: none;
+    font-weight: bold;
+    font-size: 2em;
+    font-style: normal;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.produtos li{
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 22%;
+    vertical-align: top;
+    margin: 0.8% 1.2%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+#personal:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    background: #BBffbb;
+}
+#consultoria:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    background: #fbff06;
+}
+.funcional:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    background: #f5a237;
+}
+#avaliacao:hover{
+    transform: scale(1.2);
+    transition: .3s;
+    background: #84afff;
+}
+.produtos {
+    display: flex;
+    
+}
+.produto-descricao{
+    font-size: 18px;
+}
+.produto-linha{
+    opacity: 0%;
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px){
+    .produtos {
+        display: inline-flex;
+    }
+    .produtos h2{
+        font-size: 1.5em;
+    }
+    #personal:hover{
+        z-index: 10;
+    }
+    #consultoria:hover{
+        z-index: 10;
+    }
+    .funcional:hover{
+        z-index: 10;
+    }
+    #avaliacao:hover{
+        z-index: 10;
+    }
+}
+@media (max-width: 800px){
+
+    .produtos {
+        position: relative;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+    }
+    #personal{
+        margin-top: 5%;
+    }
+    .produtos li{
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .produtos h2{
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 720px){
+
+    .produtos {
+        width: 60%;
+    }
+}
+@media (max-width: 640px){
+
+    .produtos {
+        width: 70%;
+    }
+  
+}
+@media screen and (max-width: 480px) {
+    .produtos {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .produtos {
+        width: 80%;
+    }
+  
+}
