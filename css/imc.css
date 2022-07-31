@@ -71,10 +71,7 @@ form label, form legend{
     transform: scale(1.02);
     transition: 1s transform;
 }
-.checkbox{
-    margin: 20px 0;
-}
-/*form input, form textarea*/
+
 .enviar{
     width: 40%;
     padding: 15px 0;
@@ -91,45 +88,6 @@ form label, form legend{
     transform: scale(1.1);
     transition: 1s transform;
 }
-
-.tabela{
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    display: flex;
-}
-table{
-    margin: 20px 0 40px;
-}
-thead{
-    background: black;
-    color: white;
-    font-weight: bold;
-    border: 1px solid black;
-}
-.diaTurno{
-    background: orange;
-    font-family: 'Roboto', sans-serif;
-
-}
-th{
-    padding: 8px 15px ;
-    font-family: 'Roboto', sans-serif;
-
-}
-td, .diaTurno{
-   border: 1px solid #555555; 
-   padding: 8px 15px ;
-   font-family: 'Roboto', sans-serif;
-
-}
-td{
-    text-align: center;
-    background-color: white;
-}
-
-
-
 
 @media screen and (max-width: 480px) {
     .enviar{
