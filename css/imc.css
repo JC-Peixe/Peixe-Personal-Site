@@ -3,6 +3,8 @@ main{
     margin: 0 auto;
     background-color:  rgb(240,255,248);
 }
+
+
 .formulario{
     display: flex;
     justify-content: space-around;
