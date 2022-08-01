@@ -9,7 +9,7 @@ function calculaImc(event){
     var idade = form.idade.value;
     var peso = form.peso.value;
     var altura = form.altura.value.replace(',','.');
-    var imc = (peso/(altura*altura)).toFixed(2);
+    var imc = calculaImc(peso,altura);
     
     var resultadoIMC = document.querySelector(".imc");
     resultadoIMC.textContent = imc;
@@ -22,10 +22,8 @@ function calculaImc(event){
     
     resultadoIMC.style.color = corImc(imc);
     classificacao.style.color = corImc(imc);
-
     resultadoIMC.style.backgroundColor = corBgImc(imc);
     classificacao.style.backgroundColor = corBgImc(imc);
     riscos.style.backgroundColor = corBgImc(imc);
-
 }
 botaoImc.addEventListener('click', calculaImc)
