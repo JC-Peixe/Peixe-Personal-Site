@@ -9,7 +9,7 @@ function calculaImc(event){
     var nome = form.nome.value;
     var idade = form.idade.value;
     var peso = form.peso.value;
-    var altura = form.altura.value;
+    var altura = form.altura.value.replace(',','.');
     var imc = (peso/(altura*altura)).toFixed(2);
     
     var resultadoIMC = document.querySelector(".imc");
