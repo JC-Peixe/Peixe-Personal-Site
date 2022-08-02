@@ -1,18 +1,19 @@
 
-var botaoImc = document.querySelector(".enviar");
+var botaoImc = buscarSelector(".enviar");
 
 function calculaImc(event){
     event.preventDefault();
-    var form = document.querySelector("#calculo-imc");
+
+    var form = buscarSelector("#calculo-imc");
     var cliente = obterFormulario(form);
    
-    var resultadoIMC = document.querySelector(".imc");
+    var resultadoIMC = buscarSelector(".imc");
     resultadoIMC.textContent = cliente.imc;
     
-    var classificacao = document.querySelector('.classificacao');
+    var classificacao = buscarSelector('.classificacao');
     classificacao.textContent = classificadorImc(cliente.imc);
 
-    var riscos = document.querySelector('.risco');
+    var riscos = buscarSelector('.risco');
     riscos.textContent = identificadorRiscos(cliente.imc);
     
     resultadoIMC.style.color = corImc(cliente.imc);
@@ -20,8 +21,14 @@ function calculaImc(event){
     resultadoIMC.style.backgroundColor = corBgImc(cliente.imc);
     classificacao.style.backgroundColor = corBgImc(cliente.imc);
     riscos.style.backgroundColor = corBgImc(cliente.imc);
+    
     form.reset();
 }
+
+function buscarSelector(selector){
+    return document.querySelector(selector)
+}
+
 function obterFormulario(form){
     var cliente = {
         nome:form.nome.value,
