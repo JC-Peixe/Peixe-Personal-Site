@@ -5,7 +5,7 @@ function calculaImc(peso, altura){
     return imc.toFixed(2);
 }
 function corImc(imc){
-    var cor = "nada" ;
+    var cor = "" ;
 
     if(imc < 15.99){
         cor = "red";
