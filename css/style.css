@@ -214,12 +214,6 @@ em strong{
     transform: scale(2.0);
 }
 
-/* página 2 - PRODUTOS */
-
-
-/* PÁGINA 3 - CONTATO */
-
-
 @media (max-width: 1400px){
     .peixepersonal li{
         font-size: 1.85em;

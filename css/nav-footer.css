@@ -72,11 +72,6 @@ footer{
 .side-bar a{
     text-decoration: none;
 }
-/* .side-bar a:visited {
-    color:#0A66C2;
-    text-decoration: ;
-    list-style: none;
-} */
 
 .side-bar:hover{
     border-top:2px solid black ;
