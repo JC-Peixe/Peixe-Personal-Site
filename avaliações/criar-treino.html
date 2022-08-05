@@ -20,7 +20,8 @@
                         <li><a href="../index.html" target="_self" rel="prev">Home</a></li>
                         <li><a href="../produtos/produtos.html" target="_self" rel="next">Serviços</a></li>
                         <li><a href="../contato/contato.html" target="_self" rel="next">Contato</a></li>
-                        <li><a href="../avaliações/imc.html" target="_self" rel="next">Avaliação Física</a></li>                
+                        <li><a href="../avaliações/indice.html" target="_self" rel="next">Avaliação Física</a></li>                
+                
                     </ul>
                 </nav>
             </div>
@@ -38,12 +39,12 @@
             <section class="panilha-treino">
                 <div class="Cabecalho">
                     <h2 class="nome">Nome do Aluno</h2>
-                    <h3 class="treinoDoDia">Treino de Perna</h3>
+                    <h3 class="treinoDoDia">Treino do Dia</h3>
                 </div>
                 <table class="tabela">
                   <thead>
                     <tr>
-                        <th>Exercício</th>
+                        <th>Exercícios</th>
                         <th>Séries</th>
                         <th>Repetições</th>
                         <th>Intervalo</th>
@@ -51,9 +52,9 @@
                         <th>Observações</th>
                     </tr>
                   </thead>
-                  <tbody>
-                        <tr>
-                           
+                  <tbody id="treino-aluno">
+                        <tr class="aluno">
+                        
                         </tr>
                   </tbody>
                 </table>
@@ -73,27 +74,27 @@
                         <button id="adicionar-nome" class="botao bto-secundario">Adicionar</button>
                         
                     <div class="grupo">
-                        <label for="exercicio">Exercício:</label>
-                        <input id="exercicio" type="text" name="exercicio" placeholder="" class="campo campo-medio">
+                        <label for="exercicio">Exercícios:</label>
+                        <input id="exercicio" type="text" name="exercicio" placeholder="Digite o exercício" class="exercicios campo campo-medio">
                     </div>
                     <div class="grupo">
                         <label for="series">Séries:</label>
-                        <input id="series" type="text" name="series" placeholder="" class="campo campo-medio">
+                        <input id="series" type="text" name="series" placeholder="Quantas séries serão?" class="campo campo-medio">
                     </div>
                     <div class="grupo">
                         <label for="repeticoes">Repetições:</label>
-                        <input id="repeticoes" type="text" name="repeticoes" placeholder="" class="campo campo-medio">
+                        <input id="repeticoes" type="text" name="repeticoes" placeholder="Quantas Repetições?" class="campo campo-medio">
                     </div>
                     <div class="grupo">
-                        <label for="Intervalo">Intervalo:</label>
-                        <input id="Intervalo" type="text" name="Intervalo" placeholder="" class="campo campo-medio">
+                        <label for="intervalo">Intervalo:</label>
+                        <input id="intervalo" type="text" name="intervalo" placeholder="Qual tempo de Intervalo?" class="campo campo-medio">
                     </div><div class="grupo">
                         <label for="cadencia">Cadência:</label>
-                        <input id="cadencia" type="text" name="cadencia" placeholder="" class="campo campo-medio">
+                        <input id="cadencia" type="text" name="cadencia" placeholder="Especifique a Cadência" class="campo campo-medio">
                     </div>
                     <div class="grupo">
-                        <label for="obsevacoes">Observações:</label>
-                        <input id="obsevacoes" type="text" name="obsevacoes" placeholder="" class="campo campo-medio">
+                        <label for="observacoes">Observações:</label>
+                        <input id="observacoes" type="text" name="observacoes" placeholder="Alguma Observação?" class="campo campo-medio">
                     </div>
                     <button id="adicionar-treino" class="botao bto-principal">Adicionar</button>
                 </form>
@@ -105,7 +106,7 @@
             <img src="../imagens/personalBranco.png" alt="Logo Peixe Personal">
             <p class="copyright">&copy;Copyright Peixe Personal LTDA - 2022</p>
         </footer>
-		<script src="../javascript/criar-tabela.js"></script>
+		<script src="../javascript/remove.js"></script>
 		<script src="../javascript/form-tabela.js"></script>
     </body>
 </html>

@@ -3,29 +3,27 @@
     <head>
         <meta charset="utf-8">
         <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
-        <title> Serviços - Peixe Personal</title>
+        <title> IMC Avaliação - Peixe Personal</title>
         <link rel="stylesheet" href="../css/reset.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/produtos.css">
+        <link rel="stylesheet" href="../css/indice-avaliacoes.css">
         <link rel="stylesheet" href="../css/nav-footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <!-- <a href="http://www.saudeemmovimento.com.br/saude/avaliation_fisica_i.htm" target="_blank" rel="nofollow"></a> -->
     <body>
         <header>
             <div class="caixa">
-                <h1><img class="pps" src="../imagens/peixepersonal.png" alt="Logo PeixePersonal"></h1>
+                <h1><img class="pps" src="../imagens/peixepersonal.png" alt="Logo Peixe Personal"></h1>
                 <nav>
                     <ul>
                         <li><a href="../index.html" target="_self" rel="prev">Home</a></li>
-                        <li><a href="produtos.html" target="_self" rel="next">Serviços</a></li>
+                        <li><a href="../produtos/produtos.html" target="_self" rel="next">Serviços</a></li>
                         <li><a href="../contato/contato.html" target="_self" rel="next">Contato</a></li>
                         <li><a href="../avaliações/indice.html" target="_self" rel="next">Avaliação Física</a></li>                
                     </ul>
                 </nav>
             </div>
-            
         </header>
         <main>
             <section class="side-bar">
@@ -36,40 +34,17 @@
                     <li class="linkedin"><a href="https://www.linkedin.com/in/j%C3%B4natas-cassiano-gouveia-de-ara%C3%BAjo-0b9397233/" target="_blank" title="linkedin Peixe" rel="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                 </ul>
             </section>
-            <div>
-            <ul class="produtos">
-                <li id="personal">
-                    <h2>Personal Trainer</h2>
-                    <img src="../imagens/personal6.png">
-                    <p class="produto-descricao">Em Casa ou Academia</p>
-                    <p class="produto-descricao">Planos de 2, 3, 4, 5 vezes por semana</p>
-                    <p class="produto-preco">Valores a se Combinar</p>
-                </li>
-                <li id="consultoria">
-                    <h2>Consultoria Online</h2>
-                    <img src="../imagens/consultoria4.jpg">
-                    <p class="produto-descricao">O seu Treino na Palma da Mão via APP</p>
-                    <p class="produto-preco">Valores Especiais</p>
-                </li>
-                <li class="funcional">
-                    <h2>Treinamento Funcional</h2>
-                    <img src="../imagens/kinesis1.png">
-                    <p class="produto-descricao">Melhor Grupo de Funcional da Orla de Candeias</p>
-                    <p class="produto-preco">Pacotes com 2, 3 ou 4 aulas por semana</p>
-                </li>
-                <li id="avaliacao">
-                    <h2>Avaliação Física</h2>
-                    <img src="../imagens/av2.png">
-                    <p class="produto-linha"><br></p> 
-                    <p class="produto-descricao">No conforto do seu Lar</p>
-                    <p class="produto-preco">Avaliação Completa</p>
-                </li>
-            </ul>
-            </div>
+            <section class="container">
+                <a href="../avaliações/imc.html"><button class="botao-imc botao">Teste de IMC</button></a>
+                <a href="../avaliações/criar-treino.html"><button class="botao-treino botao">Criador de Treino</button></a>
+                <a href="../index.html"><button class="botao-gordura botao">Percentual de Gordura</button></a>
+            </section>
         </main>
         <footer>
-            <img src="../imagens/personalBranco.png" alt="Logo PeixePersonal">
+            <img src="../imagens/personalBranco.png" alt="Logo Peixe Personal">
             <p class="copyright">&copy;Copyright Peixe Personal LTDA - 2022</p>
         </footer>
+		<script src="../javascript/form-imc.js"></script>
+		<script src="../javascript/imc.js"></script>
     </body>
 </html>

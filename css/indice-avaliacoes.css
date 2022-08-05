@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(240,255,248);
+
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+	width: 70%;
+	height: 50vh;
+	margin: 0 auto;
+    align-items: center;
+    background-color: rgb(240,255,248);
+
+}
+.botao{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(179, 251, 253);
+    font-weight: bold;
+    color: black;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.159);
+    border-radius: 5px;
+    font-size: 1em;
+}
+.botao-treino{
+    background-color: darkgreen;
+    color: aliceblue;
+}
+.botao-gordura{
+    background-color: red;
+    
+}
